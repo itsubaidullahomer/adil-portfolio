@@ -57,14 +57,14 @@ const Navbar = () => {
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        {/* Monogram mark: Abdullah Omer initials in the site's ink/cream palette */}
+        {/* Monogram mark: Adil Younas initials in the site's ink/cream palette */}
         <Link
           to="/"
           onClick={() => handleLinkClick("/")}
-          aria-label="Abdullah Omer, Product Designer — home"
+          aria-label="Adil Younas, UI/UX Designer — home"
           className="shrink-0 w-11 h-11 rounded-full bg-[#1C2124] text-[#FFF9F3] flex items-center justify-center font-display font-bold text-[15px] tracking-[-0.04em] transition-transform duration-300 hover:scale-105"
         >
-          AO
+          AY
         </Link>
         <div className="w-full h-full flex items-center justify-center">
           <div className="flex items-center gap-[50px]">
@@ -82,11 +82,8 @@ const Navbar = () => {
             >
               About
             </Link>
-            {/* <a className={getLinkClasses("/resume")} href="/Abdullah - _no1productdesigner_ Product Designer.pdf" target="_blank" rel="noopener noreferrer">
-              Resume
-            </a> */}
-            <a className={getLinkClasses("/resume")} href="/Abdullah - _no1productdesigner_ Product Designer - Resume (5).pdf" target="_blank" rel="noopener noreferrer">
-              Resume
+            <a className={getLinkClasses("/linkedin")} href="https://www.linkedin.com/in/itsadilyounas/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
             </a>
           </div>
         </div>

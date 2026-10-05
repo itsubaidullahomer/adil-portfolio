@@ -4,13 +4,6 @@ import Section from "./Section";
 
 const items = [
   {
-    source: "Opened my own café",
-    title: "After Hours Café",
-    image: "/images/afterhours-cafe.jpg",
-    ratio: "aspect-[566/460]",
-    href: "https://www.instagram.com/afterhours.ryk/",
-  },
-  {
     logo: "https://cdn.prod.website-files.com/661c705d2e8278b674b2dd5d/670ea4566d129f4eea09af40_Netflix%20logo%20icon.svg",
     source: "Watching",
     title: "Money Heist (Season 1)",
@@ -36,7 +29,7 @@ const Currentlys = () => {
       </Reveal>
 
       {/* Column widths follow each image's aspect ratio, so every image shows uncropped at the same height */}
-      <div className="grid grid-cols-[1230fr_701fr_1000fr] gap-5 max-[640px]:grid-cols-1">
+      <div className="grid grid-cols-[701fr_1000fr] gap-5 max-[640px]:grid-cols-1">
         {items.map((item, i) => {
           // Cards with an href become external links
           const Card = item.href ? "a" : "div";

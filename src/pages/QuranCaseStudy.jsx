@@ -39,7 +39,7 @@ const QuranCaseStudy = () => {
 
   useEffect(() => {
     const prevTitle = document.title;
-    document.title = 'Quran For All, Redesigning a daily habit · Abdullah Omer';
+    document.title = 'Quran For All, Redesigning a daily habit · Adil Younas';
     const cleanup = initQuranCaseStudyInteractions(rootRef.current);
     return () => {
       document.title = prevTitle;
@@ -51,7 +51,7 @@ const QuranCaseStudy = () => {
     <div className="caseStudy-page" ref={rootRef}>
       <header className="top">
         <div className="top-inner">
-          <Link to="/" className="brand-link"><span className="brand">Abdullah Omer</span></Link>
+          <Link to="/" className="brand-link"><span className="brand">Adil Younas</span></Link>
           {" "}
           <nav>
             <a href="#overview">
@@ -113,12 +113,12 @@ const QuranCaseStudy = () => {
           </p>
           <div className="byline">
             <span className="avatar">
-              AO
+              AY
             </span>
             {" "}
             <span>
               <b>
-                Abdullah Omer
+                Adil Younas
               </b>
             </span>
             {" "}
@@ -2552,18 +2552,11 @@ const QuranCaseStudy = () => {
           Thanks for reading. If you'd like to talk about how a similar audit or redesign could apply to your product, drop me a note.
         </p>
         <div style={{"display":"flex","flexWrap":"wrap","justifyContent":"center","gap":"10px 28px","margin":"18px 0 0","fontSize":"15px"}}>
-          <a href="mailto:abdullah542903@gmail.com" style={{"display":"inline-flex","alignItems":"center","gap":"8px","color":"var(--accent)","textDecoration":"none","borderBottom":"1px solid var(--accent)"}}>
+          <a href="https://www.linkedin.com/in/itsadilyounas/" target="_blank" rel="noopener" style={{"display":"inline-flex","alignItems":"center","gap":"8px","color":"var(--accent)","textDecoration":"none","borderBottom":"1px solid var(--accent)"}}>
             <span style={{"fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--ink-3)","fontWeight":"600"}}>
-              Email
+              LinkedIn
             </span>
-            abdullah542903@gmail.com
-          </a>
-          {" "}
-          <a href="https://wa.me/923022699763" target="_blank" rel="noopener" style={{"display":"inline-flex","alignItems":"center","gap":"8px","color":"var(--accent)","textDecoration":"none","borderBottom":"1px solid var(--accent)"}}>
-            <span style={{"fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--ink-3)","fontWeight":"600"}}>
-              WhatsApp
-            </span>
-            +92 302 2699763
+            linkedin.com/in/itsadilyounas
           </a>
         </div>
       </article>
@@ -2609,9 +2602,9 @@ const QuranCaseStudy = () => {
         <div className="inner">
           <span>
             <b>
-              Abdullah Omer
+              Adil Younas
             </b>
-            , Product Designer
+            , UI/UX Designer
           </span>
           {" "}
           <span>

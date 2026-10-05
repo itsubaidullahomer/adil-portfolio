@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
           </div>
           <p className="text-white font-bold uppercase tracking-[3px]">
-            © 2026 Abdullah Omer
+            © 2026 Adil Younas
           </p>
         </div>
         <div className="w-[20%] flex flex-col gap-[30px] pt-5 max-[550px]:w-[100%]">
@@ -22,20 +22,7 @@ const Footer = () => {
           <div className="flex items-center gap-[30px]">
             <a
               target="_blank"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=abdullah@no1productdesigner.com"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://cdn.prod.website-files.com/661c705d2e8278b674b2dd5d/6788a42d7628c8a8e26dae63_Mail%20Vector%20Icon.svg"
-                className="w-[30px] h-[30px] select-none"
-                draggable={false}
-                alt="Email"
-              />
-            </a>
-
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/no1productdesigner/"
+              href="https://www.linkedin.com/in/itsadilyounas/"
               rel="noopener noreferrer"
             >
               <img
@@ -44,14 +31,6 @@ const Footer = () => {
                 draggable={false}
                 alt="LinkedIn"
               />
-            </a>
-
-            <a
-              target="_blank"
-              href="https://wa.me/923022699763"
-              rel="noopener noreferrer"
-            >
-              <img src="/images/whatsapp-stroke.svg" alt="WhatsApp" />
             </a>
           </div>
         </div>
