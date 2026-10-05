@@ -22,6 +22,19 @@ const Footer = () => {
           <div className="flex items-center gap-[30px]">
             <a
               target="_blank"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=adilyounas134@gmail.com"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/661c705d2e8278b674b2dd5d/6788a42d7628c8a8e26dae63_Mail%20Vector%20Icon.svg"
+                className="w-[30px] h-[30px] select-none"
+                draggable={false}
+                alt="Email"
+              />
+            </a>
+
+            <a
+              target="_blank"
               href="https://www.linkedin.com/in/itsadilyounas/"
               rel="noopener noreferrer"
             >
@@ -31,6 +44,14 @@ const Footer = () => {
                 draggable={false}
                 alt="LinkedIn"
               />
+            </a>
+
+            <a
+              target="_blank"
+              href="https://wa.me/923244930689"
+              rel="noopener noreferrer"
+            >
+              <img src="/images/whatsapp-stroke.svg" alt="WhatsApp" />
             </a>
           </div>
         </div>

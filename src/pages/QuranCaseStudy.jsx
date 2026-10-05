@@ -2552,6 +2552,20 @@ const QuranCaseStudy = () => {
           Thanks for reading. If you'd like to talk about how a similar audit or redesign could apply to your product, drop me a note.
         </p>
         <div style={{"display":"flex","flexWrap":"wrap","justifyContent":"center","gap":"10px 28px","margin":"18px 0 0","fontSize":"15px"}}>
+          <a href="mailto:adilyounas134@gmail.com" style={{"display":"inline-flex","alignItems":"center","gap":"8px","color":"var(--accent)","textDecoration":"none","borderBottom":"1px solid var(--accent)"}}>
+            <span style={{"fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--ink-3)","fontWeight":"600"}}>
+              Email
+            </span>
+            adilyounas134@gmail.com
+          </a>
+          {" "}
+          <a href="https://wa.me/923244930689" target="_blank" rel="noopener" style={{"display":"inline-flex","alignItems":"center","gap":"8px","color":"var(--accent)","textDecoration":"none","borderBottom":"1px solid var(--accent)"}}>
+            <span style={{"fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--ink-3)","fontWeight":"600"}}>
+              WhatsApp
+            </span>
+            +92 324 4930689
+          </a>
+          {" "}
           <a href="https://www.linkedin.com/in/itsadilyounas/" target="_blank" rel="noopener" style={{"display":"inline-flex","alignItems":"center","gap":"8px","color":"var(--accent)","textDecoration":"none","borderBottom":"1px solid var(--accent)"}}>
             <span style={{"fontSize":"12px","letterSpacing":"0.14em","textTransform":"uppercase","color":"var(--ink-3)","fontWeight":"600"}}>
               LinkedIn
