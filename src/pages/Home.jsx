@@ -7,9 +7,11 @@ import OtherProjects from '../views/home/OtherProjects';
 const Home = () => {
   return (
     <Layout>
-      <Hero/>
-      <FeaturedWork/>
-      <OtherProjects/>
+      <div className="home-page overflow-x-hidden">
+        <Hero/>
+        <FeaturedWork/>
+        <OtherProjects/>
+      </div>
     </Layout>
   )
 }

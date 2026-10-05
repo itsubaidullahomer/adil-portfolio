@@ -11,3 +11,40 @@ body{
 .dm-sans {
   font-family: "DM Sans", sans-serif;
 }
+
+/* Home page type: the global `*` rule above would override inherited fonts, so target descendants explicitly. */
+.home-page * {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.home-page .font-display {
+  font-family: "Bricolage Grotesque", serif;
+}
+
+/* ---------- About page ---------- */
+
+/* Scroll-reveal used by <Reveal/> */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(.2,.7,.3,1), transform 0.8s cubic-bezier(.2,.7,.3,1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero rotating line: each new phrase slides up into place */
+@keyframes about-line-in {
+  from { opacity: 0; transform: translateY(0.35em); }
+  to { opacity: 1; transform: none; }
+}
+.about-line-in {
+  animation: about-line-in 0.6s cubic-bezier(.2,.7,.3,1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .about-line-in { animation: none; }
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  body { margin: 0; background: #FFF9F3; font-family: 'Instrument Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: inherit; }
+  .card { transition: transform .45s cubic-bezier(.2,.7,.3,1), box-shadow .45s, border-color .45s; }
+  .card:hover { transform: translateY(-6px); box-shadow: 0 24px 50px -28px rgba(28,33,36,.45); border-color: #D9CFC2; }
+  .card:hover .thumb img { transform: scale(1.06); }
+  .card:hover .arrow { background: #1C2124; color: #FFF9F3; transform: translate(2px,-2px); }
+  .feat:hover .feat-img { transform: translateY(-6px); }
+  .feat:hover .feat-cta { gap: 18px; }
+</style>
+</helmet>
+<div style="width:100%; background:#FFF9F3; color:#1C2124; overflow-x:hidden">
+
+  <div style="width:100%; box-sizing:border-box; padding:clamp(56px,7vw,150px) clamp(20px,6vw,82px) clamp(80px,12vw,200px); display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:clamp(40px,5vw,72px)">
+    <div style="flex:1 1 460px; min-width:0; display:flex; flex-direction:column; gap:clamp(40px,5vw,76px); max-width:725px">
+      <div style="display:flex; flex-direction:column; gap:clamp(30px,4vw,56px)">
+        <h1 style="margin:0; font-family:'Bricolage Grotesque',serif; font-weight:700; font-size:clamp(46px,7vw,100px); line-height:1.1; letter-spacing:-0.03em; color:#1C2124; text-wrap:balance">Hey, <br />I'm Abdullah Omer</h1>
+        <div style="display:flex; flex-wrap:wrap; gap:20px 28px">
+          <div style="flex:1 1 240px; display:flex; flex-direction:column; gap:8px">
+            <p style="margin:0; font-size:clamp(17px,1.5vw,21px); line-height:1.2; color:#1C2124">Building cool things</p>
+            <p style="margin:0; font-size:clamp(17px,1.5vw,21px); line-height:1.2; color:#7C7C7A">Product Designer @ Qur'an for All</p>
+          </div>
+          <div style="flex:1 1 240px; display:flex; flex-direction:column; gap:8px">
+            <p style="margin:0; font-size:clamp(17px,1.5vw,21px); line-height:1.2; color:#1C2124">And collaborating with</p>
+            <p style="margin:0; font-size:clamp(17px,1.5vw,21px); line-height:1.2; color:#7C7C7A">FinTech &amp; Enterprise Teams (incl. Amex, indirect)</p>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <h2 style="margin:0; font-size:clamp(24px,3vw,36px); font-weight:200; line-height:1.25; color:#7C7C7A">Designing to shape behavior</h2>
+        <h2 style="margin:0; font-size:clamp(24px,3vw,36px); font-weight:200; line-height:1.25; color:#7C7C7A">through science + storytelling.</h2>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:6px">
+        <h2 style="margin:0; font-size:clamp(24px,3vw,36px); font-weight:200; line-height:1.25; color:#1C2124">Product Designer | 3+ years <span style="color:#7C7C7A">{by trade}</span></h2>
+        <h2 style="margin:0; font-size:clamp(24px,3vw,36px); font-weight:200; line-height:1.25; color:#1C2124">Data-Driven, Always Learning <span style="color:#7C7C7A">{by heart}</span></h2>
+      </div>
+    </div>
+    <div style="flex:1 1 360px; min-width:0; max-width:620px; aspect-ratio:1/1; border-radius:40px; background:linear-gradient(160deg,#F4ECE2 0%,#EDE3D6 100%); display:flex; align-items:flex-end; justify-content:center; overflow:hidden">
+      <img src="images/abdullah.png" alt="Abdullah Omer" style="width:92%; height:auto; display:block; object-fit:contain" />
+    </div>
+  </div>
+
+  <div style="width:100%; box-sizing:border-box; padding:clamp(56px,8vw,110px) clamp(20px,7vw,110px); display:flex; flex-direction:column; gap:clamp(40px,5vw,72px); background:#1C2124">
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <h2 style="margin:0; font-family:'Bricolage Grotesque',serif; font-size:clamp(34px,5vw,55px); font-weight:700; letter-spacing:-0.03em; color:#fff">Featured Work</h2>
+      <p style="margin:0; font-size:18px; color:#8E8C88">The latest best work.</p>
+    </div>
+    <div style="width:100%; display:flex; flex-direction:column; align-items:center; gap:clamp(56px,7vw,110px)">
+
+      <a class="feat" href="#" style="width:100%; max-width:1150px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:clamp(28px,4vw,64px)">
+        <div class="feat-img" style="flex:1 1 320px; min-width:0; aspect-ratio:853/1280; border-radius:32px; overflow:hidden; background:#22282B; transition:transform .5s cubic-bezier(.2,.7,.3,1)">
+          <img src="images/img1.jpg" alt="UX audit of QFA" draggable="false" style="width:100%; height:100%; object-fit:cover; display:block" />
+        </div>
+        <div style="flex:1 1 340px; min-width:0; display:flex; flex-direction:column; gap:26px">
+          <div style="display:flex; align-items:center; gap:10px">
+            <div style="width:34px; height:34px; border-radius:8px; background:#fff; flex:none; display:flex; align-items:center; justify-content:center; overflow:hidden">
+              <img src="images/quran-for-all-logo.jpg" alt="" style="width:100%; height:100%; object-fit:cover" />
+            </div>
+            <p style="margin:0; font-size:13px; letter-spacing:0.1em; font-weight:700; text-transform:uppercase; color:#FFF9F3">UX Audit · Mobile</p>
+          </div>
+          <h3 style="margin:0; font-family:'Bricolage Grotesque',serif; font-size:clamp(28px,3.2vw,40px); font-weight:700; letter-spacing:-0.02em; color:#EFEFEC">UX audit of QFA</h3>
+          <p style="margin:0; font-size:18px; line-height:1.6; color:#9A9894; max-width:46ch">Interactive UX audit tool for the Quran for All mobile app: map critical user journeys, surface key usability issues, and deliver actionable improvements.</p>
+          <div style="display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; font-size:15px; color:#EAEAE7">
+            <span style="padding:7px 14px; border:1px solid #3A4145; border-radius:999px">2025</span>
+            <span style="padding:7px 14px; border:1px solid #3A4145; border-radius:999px">Delivered · Al Huda</span>
+          </div>
+          <div class="feat-cta" style="display:flex; align-items:center; gap:12px; font-weight:600; color:#FFF9F3; transition:gap .35s">
+            <span>Read the case study</span>
+            <span aria-hidden="true">→</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="feat" href="https://google-podcast.abdullah.manjdev.com" target="_blank" style="width:100%; max-width:1150px; display:flex; flex-wrap:wrap-reverse; align-items:center; justify-content:space-between; gap:clamp(28px,4vw,64px)">
+        <div style="flex:1 1 340px; min-width:0; display:flex; flex-direction:column; gap:26px">
+          <div style="display:flex; align-items:center; gap:10px">
+            <div style="width:34px; height:34px; border-radius:8px; background:#fff; flex:none; display:flex; align-items:center; justify-content:center">
+              <img src="images/icon1.svg" alt="" style="width:19px; height:19px" />
+            </div>
+            <p style="margin:0; font-size:13px; letter-spacing:0.1em; font-weight:700; text-transform:uppercase; color:#FFF9F3">Podcast · Audio Content</p>
+          </div>
+          <h3 style="margin:0; font-family:'Bricolage Grotesque',serif; font-size:clamp(28px,3.2vw,40px); font-weight:700; letter-spacing:-0.02em; color:#EFEFEC">Google Podcast Redesign</h3>
+          <p style="margin:0; font-size:18px; line-height:1.6; color:#9A9894; max-width:46ch">Redesigned Google Podcasts through a usability audit and user research, creating a more intuitive and engaging listening experience.</p>
+          <div style="display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; font-size:15px; color:#EAEAE7">
+            <span style="padding:7px 14px; border:1px solid #3A4145; border-radius:999px">2025</span>
+            <span style="padding:7px 14px; border:1px solid #3A4145; border-radius:999px">Redesign · Personal Project</span>
+          </div>
+          <div class="feat-cta" style="display:flex; align-items:center; gap:12px; font-weight:600; color:#FFF9F3; transition:gap .35s">
+            <span>View live project</span>
+            <span aria-hidden="true">↗</span>
+          </div>
+        </div>
+        <div class="feat-img" style="flex:1 1 320px; min-width:0; aspect-ratio:853/1280; border-radius:32px; overflow:hidden; background:#22282B; transition:transform .5s cubic-bezier(.2,.7,.3,1)">
+          <img src="images/img2.jpg" alt="Podcast cover art" draggable="false" style="width:100%; height:100%; object-fit:cover; display:block" />
+        </div>
+      </a>
+
+      <a class="feat" href="https://talent-ai.abdullah.manjdev.com/" target="_blank" style="width:100%; max-width:1150px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:clamp(28px,4vw,64px)">
+        <div class="feat-img" style="flex:1 1 320px; min-width:0; aspect-ratio:853/1280; border-radius:32px; overflow:hidden; background:#22282B; transition:transform .5s cubic-bezier(.2,.7,.3,1)">
+          <img src="images/img3.jpeg" alt="Talent AI" draggable="false" style="width:100%; height:100%; object-fit:cover; display:block" />
+        </div>
+        <div style="flex:1 1 340px; min-width:0; display:flex; flex-direction:column; gap:26px">
+          <div style="display:flex; align-items:center; gap:10px">
+            <div style="width:34px; height:34px; border-radius:8px; background:#25D366; flex:none; display:flex; align-items:center; justify-content:center">
+              <img src="images/whatsapp-stroke.svg" alt="" style="width:19px; height:19px" />
+            </div>
+            <p style="margin:0; font-size:13px; letter-spacing:0.1em; font-weight:700; text-transform:uppercase; color:#FFF9F3">Gen AI · Job Search · Chatbot</p>
+          </div>
+          <h3 style="margin:0; font-family:'Bricolage Grotesque',serif; font-size:clamp(28px,3.2vw,40px); font-weight:700; letter-spacing:-0.02em; color:#EFEFEC">Talent AI</h3>
+          <p style="margin:0; font-size:18px; line-height:1.6; color:#9A9894; max-width:46ch">Enhancing job search experience through a WhatsApp chatbot that guides and assists users with personalized opportunities.</p>
+          <div style="display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; font-size:15px; color:#EAEAE7">
+            <span style="padding:7px 14px; border:1px solid #3A4145; border-radius:999px">2024</span>
+            <span style="padding:7px 14px; border:1px solid #3A4145; border-radius:999px">Delivered · Talent AI</span>
+          </div>
+          <div class="feat-cta" style="display:flex; align-items:center; gap:12px; font-weight:600; color:#FFF9F3; transition:gap .35s">
+            <span>View live project</span>
+            <span aria-hidden="true">↗</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div style="box-sizing:border-box; padding:clamp(60px,9vw,130px) clamp(20px,6vw,82px); display:flex; flex-direction:column; gap:clamp(36px,5vw,64px)">
+    <div style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px">
+      <h2 style="margin:0; font-family:'Bricolage Grotesque',serif; font-size:clamp(34px,5vw,55px); font-weight:700; letter-spacing:-0.03em; color:#1C2124">Other Projects</h2>
+      <p style="margin:0; font-size:17px; color:#7C7C7A">Six shipped products · 2025</p>
+    </div>
+    <div style="width:100%; display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr)); gap:clamp(20px,2.5vw,32px)">
+      <sc-for list="{{ projects }}" as="p" hint-placeholder-count="6">
+        <a class="card" href="{{ p.href }}" target="_blank" style="display:flex; flex-direction:column; background:#FFFDFA; border:1px solid #EAE1D6; border-radius:24px; padding:14px; box-shadow:0 1px 2px rgba(28,33,36,.04)">
+          <div class="thumb" style="position:relative; width:100%; aspect-ratio:1/1; border-radius:16px; overflow:hidden; background:#101214">
+            <img src="{{ p.image }}" alt="{{ p.title }}" draggable="false" style="width:100%; height:100%; object-fit:cover; display:block; transition:transform .6s cubic-bezier(.2,.7,.3,1)" />
+            <span style="position:absolute; top:12px; left:12px; padding:5px 11px; font-size:12px; font-weight:600; letter-spacing:.04em; color:#EFEFEC; background:rgba(16,18,20,.72); border:1px solid rgba(255,255,255,.14); border-radius:999px; backdrop-filter:blur(6px)">{{ p.year }}</span>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:10px; padding:20px 8px 10px">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px">
+              <h3 style="margin:0; font-family:'Bricolage Grotesque',serif; font-size:22px; font-weight:700; letter-spacing:-0.01em; color:#1C2124">{{ p.title }}</h3>
+              <span class="arrow" aria-hidden="true" style="flex:none; width:32px; height:32px; border-radius:999px; border:1px solid #E0D6C9; display:flex; align-items:center; justify-content:center; font-size:14px; color:#1C2124; transition:all .35s">↗</span>
+            </div>
+            <p style="margin:0; font-size:16px; line-height:1.55; color:#807E7A">{{ p.description }}</p>
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:8px; padding:12px 8px 6px; border-top:1px solid #F0E8DE; margin-top:auto">
+            <sc-for list="{{ p.tags }}" as="t" hint-placeholder-count="3">
+              <span style="padding:5px 11px; font-size:13px; font-weight:500; color:#5D5A55; background:#F5EEE5; border-radius:999px">{{ t }}</span>
+            </sc-for>
+          </div>
+        </a>
+      </sc-for>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      projects: [
+        { title: "Alarm Clock", year: "2025", description: "Clock-face visuals and touch controls for alarms and snooze on Fire TV and tablets.", tags: ["UI", "Prototype", "TV App"], image: "images/projects/img6.png", href: "https://www.amazon.com/dp/B0CCRWTM9J" },
+        { title: "E-Nomad Tax", year: "2025", description: "Offshore tax consultancy for US professionals focused on tax optimization and wealth protection.", tags: ["Tax", "Offshore", "Consultancy"], image: "images/projects/img4.jpg", href: "https://www.enomadtax.com/" },
+        { title: "Tututor AI", year: "2025", description: "AI education platform for teachers and students to generate exams, mind maps and lesson plans.", tags: ["AI", "Education", "Learning"], image: "images/projects/img2.jpg", href: "https://www.tututor.ai/" },
+        { title: "UAPay", year: "2025", description: "FinTech payment provider offering online payments, mass payouts and P2P transfers.", tags: ["Payments", "FinTech", "P2P"], image: "images/projects/img3.jpg", href: "https://uapay.vercel.app/" },
+        { title: "Octech Cloud", year: "2025", description: "Digital consultancy covering cloud migration, AI systems, UI/UX design and full-cycle delivery.", tags: ["Cloud", "AI", "Digital"], image: "images/projects/img5.jpg", href: "https://octech.cloud/" },
+        { title: "Aurix", year: "2025", description: "An experimental interface prototype exploring a bolder product identity.", tags: ["UI", "Prototype", "Concept"], image: "images/projects/img1.jpg", href: "https://aurix-sigma.vercel.app/" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
