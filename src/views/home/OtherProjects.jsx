@@ -8,7 +8,7 @@ const OtherProjects = () => {
         <div className="w-full grid grid-cols-3 p-5 py-14">
           <div className="w-full p-2.5 flex flex-col gap-3">
             <img
-              src="/images/img1.jpg"
+              src="/images/img1.jpeg"
               className="w-full h-[612px] rounded-2xl"
               alt=""
             />
@@ -27,7 +27,7 @@ const OtherProjects = () => {
           </div>
           <div className="w-full p-2.5 flex flex-col gap-3">
             <img
-              src="/images/img1.jpg"
+              src="/images/img1.jpeg"
               className="w-full h-[612px] rounded-2xl"
               alt=""
             />

@@ -11,7 +11,7 @@ const FeaturedWork = () => {
         <div className="w-full flex items-center justify-center px-7 py-14 flex-col gap-[120px]">
           <div className="max-w-[1150px] flex items-center gap-[120px]">
             <img
-              src="/images/img1.jpg"
+              src="/images/img1.jpeg"
               className="w-[550px] h-[700px] rounded-4xl select-none"
               draggable={false}
               alt=""
@@ -43,7 +43,7 @@ const FeaturedWork = () => {
           </div>
           <div className="max-w-[1150px] flex items-center gap-[120px]">
             <img
-              src="/images/img1.jpg"
+              src="/images/img1.jpeg"
               className="w-[550px] h-[700px] rounded-4xl select-none"
               draggable={false}
               alt=""
@@ -75,7 +75,7 @@ const FeaturedWork = () => {
           </div>
           <div className="max-w-[1150px] flex items-center gap-[120px]">
             <img
-              src="/images/img1.jpg"
+              src="/images/img1.jpeg"
               className="w-[550px] h-[700px] rounded-4xl select-none"
               draggable={false}
               alt=""
@@ -107,7 +107,7 @@ const FeaturedWork = () => {
           </div>
           <div className="max-w-[1150px] flex items-center gap-[120px]">
             <img
-              src="/images/img1.jpg"
+              src="/images/img1.jpeg"
               className="w-[550px] h-[700px] rounded-4xl select-none"
               draggable={false}
               alt=""
