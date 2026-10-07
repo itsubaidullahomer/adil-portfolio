@@ -82,8 +82,8 @@ const Navbar = () => {
             >
               About
             </Link>
-            <a className={getLinkClasses("/linkedin")} href="https://www.linkedin.com/in/itsadilyounas/" target="_blank" rel="noopener noreferrer">
-              LinkedIn
+            <a className={getLinkClasses("/resume")} href="/Adil_UIUX_Designer_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
             </a>
           </div>
         </div>

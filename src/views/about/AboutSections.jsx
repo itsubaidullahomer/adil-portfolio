@@ -7,11 +7,6 @@ import RotatingLine from "./RotatingLine";
 // Echoes the Home hero's "{by trade} / {by heart}" line.
 const lines = ["Designer by trade.", "Researcher by habit.", "Curious by heart."];
 
-// Resume button shows once Adil's PDF is saved as src/assets/resume.pdf; hidden until then.
-const resumeUrl = Object.values(
-  import.meta.glob("../../assets/resume.pdf", { eager: true, query: "?url", import: "default" })
-)[0];
-
 const details = [
   { term: "Role", value: "UI/UX Designer" },
   { term: "Experience", value: "4 years" },
@@ -93,16 +88,14 @@ const AboutSections = () => {
               See my work
               <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
-            {resumeUrl && (
-              <a
-                href={resumeUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-[#1C2124] underline decoration-[#C9C9C3] underline-offset-[6px] transition-colors hover:decoration-[#1C2124]"
-              >
-                Resume →
-              </a>
-            )}
+            <a
+              href="/Adil_UIUX_Designer_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[#1C2124] underline decoration-[#C9C9C3] underline-offset-[6px] transition-colors hover:decoration-[#1C2124]"
+            >
+              Resume →
+            </a>
           </Reveal>
         </div>
       </Section>
