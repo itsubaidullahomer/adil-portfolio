@@ -23,7 +23,7 @@ const principles = [
 
 const Ethics = () => {
   return (
-    <Section index="03" label="Principles">
+    <Section index="04" label="Principles">
       <Reveal>
         <h2 className="mb-12 max-w-[680px] font-display text-[clamp(34px,4.6vw,55px)] font-bold leading-[1.08] tracking-[-0.03em] text-[#1C2124] text-balance">
           My code of ethics as a designer in this world.

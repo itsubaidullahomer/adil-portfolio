@@ -19,7 +19,7 @@ const details = [
 const socials = [
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/923244930689',
+    href: 'https://wa.me/923244930698',
     icon: (
       <>
         <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.3789 2.27907 14.6926 2.78382 15.8877C3.06278 16.5481 3.20226 16.8784 3.21953 17.128C3.2368 17.3776 3.16334 17.6521 3.01642 18.2012L2 22L5.79877 20.9836C6.34788 20.8367 6.62244 20.7632 6.87202 20.7805C7.12161 20.7977 7.45185 20.9372 8.11235 21.2162C9.30745 21.7209 10.6211 22 12 22Z" strokeLinejoin="round" />
@@ -29,7 +29,7 @@ const socials = [
   },
   {
     label: 'Email',
-    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=adilyounas134@gmail.com',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=adiluxdesigner@gmail.com',
     icon: (
       <>
         <rect x="2.5" y="4.5" width="19" height="15" rx="3" />

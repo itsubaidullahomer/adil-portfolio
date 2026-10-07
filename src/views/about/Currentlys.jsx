@@ -21,7 +21,7 @@ const items = [
 
 const Currentlys = () => {
   return (
-    <Section index="02" label="Currently" dark>
+    <Section index="03" label="Currently" dark>
       <Reveal>
         <h2 className="mb-10 font-display text-[clamp(34px,5vw,55px)] font-bold leading-[1.05] tracking-[-0.03em] text-white">
           Currentlys

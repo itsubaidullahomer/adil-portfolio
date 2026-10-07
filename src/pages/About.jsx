@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../layout/Layout'
 import AboutSections from './../views/about/AboutSections.jsx';
+import Origin from './../views/about/Origin.jsx';
 import Currentlys from './../views/about/Currentlys.jsx';
 import Ethics from './../views/about/Ethics.jsx';
 
@@ -10,6 +11,7 @@ const About = () => {
       {/* Shares the Home page type system (Instrument Sans + Bricolage Grotesque) */}
       <div className="home-page overflow-x-clip">
         <AboutSections/>
+        <Origin/>
         <Currentlys/>
         <Ethics/>
       </div>

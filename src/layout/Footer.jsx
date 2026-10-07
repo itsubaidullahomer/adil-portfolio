@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex items-center gap-[30px]">
             <a
               target="_blank"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=adilyounas134@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=adiluxdesigner@gmail.com"
               rel="noopener noreferrer"
             >
               <img
@@ -48,7 +48,7 @@ const Footer = () => {
 
             <a
               target="_blank"
-              href="https://wa.me/923244930689"
+              href="https://wa.me/923244930698"
               rel="noopener noreferrer"
             >
               <img src="/images/whatsapp-stroke.svg" alt="WhatsApp" />

@@ -7,11 +7,16 @@ import RotatingLine from "./RotatingLine";
 // Echoes the Home hero's "{by trade} / {by heart}" line.
 const lines = ["Designer by trade.", "Researcher by habit.", "Curious by heart."];
 
+// Resume button shows once Adil's PDF is saved as src/assets/resume.pdf; hidden until then.
+const resumeUrl = Object.values(
+  import.meta.glob("../../assets/resume.pdf", { eager: true, query: "?url", import: "default" })
+)[0];
+
 const details = [
   { term: "Role", value: "UI/UX Designer" },
   { term: "Experience", value: "4 years" },
   { term: "Focus", value: "SaaS · Healthcare · Business apps" },
-  { term: "Currently", value: "Product Designer @ Qur'an for All" },
+  { term: "Currently", value: "Open to new opportunities" },
 ];
 
 const AboutSections = () => {
@@ -66,14 +71,17 @@ const AboutSections = () => {
           </Reveal>
           <Reveal delay={80} className="grid grid-cols-2 gap-x-10 gap-y-5 max-[640px]:grid-cols-1">
             <p className="text-[17px] leading-[1.65] text-[#7C7C7A]">
-              I'm a UI/UX designer with 4 years of experience designing SaaS, healthcare and business web applications. My background in sketching and visual storytelling gave me an early love for turning ideas into something tangible. Today I turn that into user flows, wireframes, prototypes and polished interfaces in Figma, always asking why a user hesitated, what confused them, and how I could make it simpler.
+              I'm Adil, a UI/UX designer with 4 years of experience designing SaaS, healthcare and business web applications. I started out sketching and telling stories visually, and I still work the same way: understand the person first, then shape the idea into user flows, wireframes, prototypes and polished interfaces in Figma. I'm always asking why a user hesitated, what confused them, and how it could be simpler.
             </p>
             <div className="flex flex-col gap-5">
               <p className="text-[17px] leading-[1.65] text-[#7C7C7A]">
                 What excites me most is the psychology behind design: how one small interaction can make someone feel understood, and how clarity can remove frustration.
               </p>
               <p className="text-[17px] leading-[1.65] text-[#7C7C7A]">
-                I care about inclusive, user-centered products that solve real problems, not just screens that look good. Open to UI/UX and product design roles, remote or hybrid.
+                Some of my ideas get built. Some stay locked in a notebook. But every one starts the same way: by noticing someone struggle.
+              </p>
+              <p className="text-[17px] leading-[1.65] text-[#7C7C7A]">
+                Open to UI/UX and product design roles, remote or hybrid.
               </p>
             </div>
           </Reveal>
@@ -85,14 +93,16 @@ const AboutSections = () => {
               See my work
               <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
-            <a
-              href="https://www.linkedin.com/in/itsadilyounas/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-[#1C2124] underline decoration-[#C9C9C3] underline-offset-[6px] transition-colors hover:decoration-[#1C2124]"
-            >
-              LinkedIn ↗
-            </a>
+            {resumeUrl && (
+              <a
+                href={resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-[#1C2124] underline decoration-[#C9C9C3] underline-offset-[6px] transition-colors hover:decoration-[#1C2124]"
+              >
+                Resume →
+              </a>
+            )}
           </Reveal>
         </div>
       </Section>
