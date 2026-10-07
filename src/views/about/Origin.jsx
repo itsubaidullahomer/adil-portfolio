@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import Section from "./Section";
 
-// "beat" lines break the story's rhythm; "turn" is the moment the questions arrive.
+// The story stays in one light weight; "beat" sets "What?" apart by scale and space, not boldness.
 const story = [
   {
     text: "It was a Thursday night in winter, the kind of cold that settles into your bones. It was my brother's discharge day.",
@@ -20,13 +20,11 @@ const story = [
   { text: "What?", kind: "beat" },
   {
     text: "I stood frozen as questions flooded my mind. Why does it have to be this way? Why isn't there a seat that can turn, swivel, and lift, a seat that becomes a stretcher, so no patient ever has to be forced into a position their body cannot bear?",
-    kind: "turn",
   },
 ];
 
 const styles = {
-  beat: "font-display text-[clamp(28px,3vw,40px)] font-bold leading-[1.1] tracking-[-0.03em] text-[#1C2124]",
-  turn: "font-display text-[clamp(20px,2vw,26px)] font-medium leading-[1.4] tracking-[-0.01em] text-[#1C2124]",
+  beat: "py-3 font-display text-[clamp(32px,3.6vw,48px)] font-light leading-[1.1] tracking-[-0.03em] text-[#1C2124]",
   body: "text-[17px] leading-[1.65] text-[#7C7C7A]",
 };
 
@@ -55,12 +53,12 @@ const Origin = () => {
             <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-1">→</span>
           </Link>
           <a
-            href="https://www.linkedin.com/in/itsadilyounas/"
+            href="/Adil_UIUX_Designer_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-[#1C2124] underline decoration-[#C9C9C3] underline-offset-[6px] transition-colors hover:decoration-[#1C2124]"
           >
-            LinkedIn →
+            Resume →
           </a>
         </Reveal>
       </div>

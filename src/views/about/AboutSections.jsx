@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import Section from "./Section";
 import RotatingLine from "./RotatingLine";
@@ -79,23 +78,6 @@ const AboutSections = () => {
                 Open to UI/UX and product design roles, remote or hybrid.
               </p>
             </div>
-          </Reveal>
-          <Reveal delay={140} className="flex flex-wrap items-center gap-6">
-            <Link
-              to="/"
-              className="group inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-[#1C2124] text-[#FFF9F3] font-medium"
-            >
-              See my work
-              <span aria-hidden="true" className="transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </Link>
-            <a
-              href="/Adil_UIUX_Designer_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-[#1C2124] underline decoration-[#C9C9C3] underline-offset-[6px] transition-colors hover:decoration-[#1C2124]"
-            >
-              Resume →
-            </a>
           </Reveal>
         </div>
       </Section>
